@@ -1,12 +1,32 @@
 import React from 'react';
 import styles from './List.scss';
-import MyComponent from '../Hero/Hero.js'
+import Hero from '../Hero/Hero.js';
+import PropTypes from 'prop-types';
+import Column from '../Column/Column.js';
 
 class List extends React.Component {
+  static propTypes = {
+    title: PropTypes.node,
+    children: PropTypes.node,
+  }
+
+  static defaultProps = {
+    children: <p>Interesting things I want to check out!</p>
+  }
+
   render() {
     return (
       <section className={styles.component}>
-          <MyComponent />
+        <Hero titleText={this.props.title} imgUrl={this.props.url}>
+        </Hero>
+        <div className={styles.description}>
+          {this.props.children}
+        </div>
+        <div className={styles.columns}>
+          <Column colTitle={'Animals'} />
+          <Column colTitle={'Plants'} />
+          <Column colTitle={'Minerals'} />
+        </div>
       </section>
     )
   }
