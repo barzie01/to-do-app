@@ -22,7 +22,7 @@ class List extends React.Component {
     description: settings.defaultListDescription,
   }
 
-  addColumn(title){
+  addColumn(title) {
     this.setState(state => (
       {
         columns: [
@@ -52,7 +52,7 @@ class List extends React.Component {
           ))}
         </div>
         <div className={styles.creator}>
-          <Creator text={settings.columnCreatorText} action={title => this.addColumn(title)}/>
+          <Creator text={settings.columnCreatorText} action={title => this.addColumn(title)} />
         </div>
       </section>
     )
