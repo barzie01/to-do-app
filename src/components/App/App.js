@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './App.scss';
 import List from '../List/List';
 import PropTypes from 'prop-types';
-import {pageContents, listData, settings} from '../../data/dataStore';
+import {pageContents, listData} from '../../data/dataStore';
 
 class App extends React.Component {
   static propTypes = {
@@ -17,7 +17,7 @@ class App extends React.Component {
         <h2 className={styles.subtitle}>{pageContents.subtitle}</h2>
         <List {...listData} />
       </main>
-    )
+    );
   }
 }
 
