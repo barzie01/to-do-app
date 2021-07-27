@@ -16,7 +16,7 @@ class Column extends React.Component {
     cards: PropTypes.array,
     icon: PropTypes.string,
     title: PropTypes.string,
-    addCart: PropTypes.func,
+    addCard: PropTypes.func,
   }
 
   static defaultProps = {
@@ -24,7 +24,7 @@ class Column extends React.Component {
   }
 
   render() {
-    const {title, icon, cards, addCart} = this.props;
+    const {title, icon, cards, addCard} = this.props;
 
     return (
       <section className={styles.component}>
@@ -36,7 +36,7 @@ class Column extends React.Component {
         {cards.map(cardData => (
           <Card key={cardData.id} {...cardData} />
         ))}
-        <Creator text={settings.cardCreatorText} action={addCart} />
+        <Creator text={settings.cardCreatorText} action={addCard} />
       </section>
     );
   }
