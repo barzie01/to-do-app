@@ -12,6 +12,7 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  headerIcon: 'rocket',
 };
 
 export const pageContents = {
@@ -70,6 +71,18 @@ export const listData = {
       ],
     },
   ],
+};
+
+export const info = {
+  title: 'About me',
+  image: 'https://i.postimg.cc/tgJqbxSg/cat-3695213-1920.jpg',
+  content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rerum voluptate consequuntur, fugiat perspiciatis nemo! Placeat neque, qui repellat tempore nulla eius quo laboriosam doloremque fuga pariatur, ipsa quam laborum? Ipsam quibusdam cupiditate accusantium architecto eum deleniti, laboriosam ipsa ducimus, cumque, eveniet consequatur at dolore nulla porro ullam doloribus ut consectetur reiciendis! Magni minus at doloribus nulla, praesentium alias dicta. Quaerat deleniti numquam facere sapiente provident dolorum omnis fuga ratione tempore quis temporibus in voluptatibus non dignissimos, perferendis optio cumque officiis incidunt eius earum assumenda consequatur culpa neque repellendus! Harum?Aperiam reprehenderit, earum voluptas magni quaerat iure sapiente accusamus commodi, fugit voluptates excepturi vero tenetur, sequi labore iusto perferendis qui? Autem aspernatur ad dicta recusandae, repudiandae molestiae quibusdam atque. Minima?Eveniet, quae ratione dolor eaque velit rem odio voluptatibus temporibus atque sit illum blanditiis tenetur vero? Culpa laudantium dolores magni tenetur, sequi necessitatibus amet ipsa eum quasi dolorum eligendi ipsam?',
+};
+
+export const faq = {
+  title: 'FAQ',
+  image: 'https://i.postimg.cc/7Zs4KLHr/rocket-4993708-1280.png',
+  content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rerum voluptate consequuntur, fugiat perspiciatis nemo! Placeat neque, qui repellat tempore nulla eius quo laboriosam doloremque fuga pariatur, ipsa quam laborum? Ipsam quibusdam cupiditate accusantium architecto eum deleniti, laboriosam ipsa ducimus, cumque, eveniet consequatur at dolore nulla porro ullam doloribus ut consectetur reiciendis! Magni minus at doloribus nulla, praesentium alias dicta. Quaerat deleniti numquam facere sapiente provident dolorum omnis fuga ratione tempore quis temporibus in voluptatibus non dignissimos, perferendis optio cumque officiis incidunt eius earum assumenda consequatur culpa neque repellendus! Harum?Aperiam reprehenderit, earum voluptas magni quaerat iure sapiente accusamus commodi, fugit voluptates excepturi vero tenetur, sequi labore iusto perferendis qui? Autem aspernatur ad dicta recusandae, repudiandae molestiae quibusdam atque. Minima?Eveniet, quae ratione dolor eaque velit rem odio voluptatibus temporibus atque sit illum blanditiis tenetur vero? Culpa laudantium dolores magni tenetur, sequi necessitatibus amet ipsa eum quasi dolorum eligendi ipsam?',
 };
 
 const lists = [
