@@ -28,11 +28,11 @@ class List extends React.Component {
   }
 
   render() {
-    const {title, image, description, columns, addColumn, children} = this.props;
+    const {title, image, description, columns, addColumn} = this.props;
 
     return (
       <section className={styles.component}>
-        <Container key={children}>
+        <Container>
           <Hero titleText={title} image={image} />
           <div className={styles.description}>
             {ReactHtmlParser(description)}

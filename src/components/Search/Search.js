@@ -42,12 +42,12 @@ class Search extends React.Component {
   }
 
   render() {
-    const {text, countVisible, countAll, children} = this.props;
+    const {text, countVisible, countAll} = this.props;
     const {value} = this.state;
     const {icon} = settings.search;
     return (
       <div className={styles.component}>
-        <Container key={children}>
+        <Container>
           <input
             type='text'
             placeholder={text}
